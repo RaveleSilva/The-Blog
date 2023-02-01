@@ -53,6 +53,8 @@ nav a, li{
 
 nav li:hover{
     border-left: 2px solid #4FFF4B;
+    font-weight: bolder;
+    transition: 1s;
 }
 
 .search{
@@ -86,6 +88,13 @@ nav li:hover{
     background-color: #9E6DC2;
     border: none;
     border-radius: 0 4px 4px 0;
+}
+
+.search button:hover{
+    background-color: #5f2e82;
+    cursor: pointer;
+    transition: 0.5s;
+    
 }
 
 .menu-hamburguer{
