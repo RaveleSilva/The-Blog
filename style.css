@@ -2,6 +2,7 @@
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
+    transition: 0.5s;
 }
 
 section{
@@ -64,7 +65,7 @@ nav li:hover{
 .search input{
     width: 12.8125rem;
     border-radius: 4px 0 0 4px;
-    border: none;
+    border: 1px solid transparent;
     padding: 14px 0px 14px 25px;
     background-color: #170027;
     color: white;
@@ -79,7 +80,8 @@ nav li:hover{
 
 .search input:focus{
     box-shadow: 0 0 0 0;
-    border: none;
+    border: 1px solid #4FFF4B;
+    border-right: none;
     outline: 0;
 }
 
@@ -150,6 +152,10 @@ nav li:hover{
     font-weight: bold;
     text-decoration: none;
     color: #9E6DC2;
+}
+
+.text-link a:hover{
+    color: #cea1ee;
 }
 
 .intro-img{
